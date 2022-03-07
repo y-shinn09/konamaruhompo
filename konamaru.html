@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="resetstyle.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+    />
+    <title>こなまる本舗</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1 class="header__title">
+          <a href=""
+            ><img src="images\konamaru_logo.png" alt="こなまる本舗"
+          /></a>
+        </h1>
+        <ul class="nav__list" id="nav">
+          <li class="nav__item">
+            <a href="#">ホーム</a>
+          </li>
+          <li class="nav__item">
+            <a href="#service">サービス</a>
+          </li>
+          <li class="nav__item">
+            <a href="#menu">メニュー</a>
+          </li>
+          <li class="nav__item">
+            <a href="#info">店舗情報</a>
+          </li>
+          <li class="nav__item">
+            <a href="#inquiry">お問い合わせ</a>
+          </li>
+        </ul>
+        <!--モーダル-->
+        <div id="hamburger__modal" class="hamburger__modal"></div>
+        <!--ハンバーガーメニューボタン-->
+        <div id="hamburger__btn" class="hamburger__btn">
+          <i class="fa-solid fa-bars btn_size"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="fv">
+        <div class="fv__images">
+          <img src="images\fv.jpg" alt="ファーストビュー" />
+        </div>
+        <div class="fv__inner">
+          <p class="fv__f">すべての人に</p>
+          <p class="fv__s">こなもんを</p>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="about__inner">
+          <div class="about__title">
+            <h2><img src="images\konamaru_logo.png" alt="こなまる本舗" /></h2>
+          </div>
+          <div class="about__message">
+            <b>「すべての人にこなもんを」</b>
+            <p>
+              たこ焼き・お好み焼き<br />
+              こなもんと言えば大阪道頓堀<br />
+              こなもんが食べたくなった時<br />
+              大阪・道頓堀「こなまる本舗」にて<br />
+              スタッフ一同、心よりお待ちしております!
+            </p>
+          </div>
+          <div class="link__btn">
+            <a href="#inquiry">店舗詳細はこちら</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="service">
+        <div class="common__inner">
+          <div class="sub__title">
+            <h2>サービス</h2>
+          </div>
+          <ul class="service__list">
+            <li class="service__item">
+              <img src="images\service_01.png" alt="" />
+              <div class="s__item__inner">
+                <b class="service__title">自家製粉使用</b>
+                <p class="service__ex">
+                  こなまるは粉からこだわっています。当店ならではの味を是非ご賞味ください！
+                </p>
+              </div>
+            </li>
+            <li class="service__item">
+              <img src="images\service_02.png" alt="" />
+              <div class="s__item__inner">
+                <b class="service__title">鉄板でご提供</b>
+                <p class="service__ex">
+                  あつあつの鉄板でお召し上がりください！
+                  鉄板の無いお席には鉄板プレートでご提供いたしますので、
+                  小さなお子様も安全にお食事が可能です！
+                </p>
+              </div>
+            </li>
+            <li class="service__item">
+              <img src="images\service_03.png" alt="" />
+              <div class="s__item__inner">
+                <b class="service__title">ご自身に合うお席選びを</b>
+                <p class="service__ex">
+                  テーブル・カウンター・お座敷からお選びいただけます。全100席ご用意しているので団体様でもご利用可能です！
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="menu">
+        <div class="common__inner">
+          <div class="sub__title">
+            <h2>メニュー</h2>
+          </div>
+          <div class="menu__con">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <div class="menu__ex">
+                  <h3 class="menu__title">たこ焼き</h3>
+                  <p class="menu__d">
+                    外はカリっと、中はトロっと... 味付けを多数ご用意しています！
+                    お気に入りの味が見つかるかも？
+                  </p>
+                  <div class="menu__link">メニューを詳しく見る</div>
+                </div>
+                <div class="menu__img m__right">
+                  <img src="images\menu_01.png" alt="たこ焼き" />
+                </div>
+              </li>
+              <div class="menu__ex2">
+                <table class="menu__tb">
+                  <tr>
+                    <td class="menu__tb__td">
+                      <table class="menu__tb__left">
+                        <tr>
+                          <td width="30%">ソース</td>
+                          <td>6個入り</td>
+                          <td class="menu__tax">・・・　400円</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>8個入り</td>
+                          <td class="menu__tax">・・・　500円</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>12個入り</td>
+                          <td class="menu__tax">・・・　700円</td>
+                        </tr>
+                        <tr>
+                          <td>しょうゆ</td>
+                          <td>6個入り</td>
+                          <td class="menu__tax">・・・　400円</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>8個入り</td>
+                          <td class="menu__tax">・・・　500円</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>12個入り</td>
+                          <td class="menu__tax">・・・　700円</td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td class="menu__tb__td" width="50%">
+                      <table class="menu__tb__right">
+                        <tr>
+                          <td colspan="2">塩マヨ　(6個入り)</td>
+                          <td class="menu__tax">・・・　500円</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">塩レモン　(6個入り)</td>
+                          <td class="menu__tax">・・・　500円</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">明太マヨ　(6個入り)</td>
+                          <td class="menu__tax">・・・　500円</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">バターしょうゆ<br>(6個入り)</td>
+                          <td class="menu__tax">・・・　500円</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">トッピング</td>
+                          <td class="menu__tax">・・・各100円</td>
+                        </tr>
+                        <tr>
+                          <td class="topping" colspan="3">ネギ　温泉卵　チーズ</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+              <li class="menu__item">
+                <div class="menu__ex second">
+                  <h3 class="menu__title">お好み焼き</h3>
+                  <p class="menu__d">
+                    トッピングのカスタマイズ可能！
+                    麺をプラスすることでモダン焼きにも。<br />
+                    ふわふわ触感をご堪能ください！
+                  </p>
+                  <div class="menu__link">メニューを詳しく見る</div>
+                </div>
+                <div class="menu__img m__left">
+                  <img src="images\menu_02.png" alt="お好み焼き" />
+                </div>
+              </li>
+              <div class="menu__ex2">
+                <table class="menu__tb">
+                  <tr>
+                    <td class="menu__tb__td">
+                      <table class="menu__tb__left">
+                        <tr>
+                          <td colspan="2">豚玉</td>
+                          <td class="menu__tax">・・・　400円</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">えび玉</td>
+                          <td class="menu__tax">・・・　500円</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">いか玉</td>
+                          <td class="menu__tax">・・・　700円</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">牛すじ玉</td>
+                          <td class="menu__tax">・・・　400円</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">ミックス<br>(豚・えび・いか)</td>
+                          <td class="menu__tax">・・・　500円</td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td class="menu__tb__td">
+                      <table class="menu__tb__right">
+                        <tr>
+                          <td colspan="2">乗せトッピング</td>
+                          <td class="menu__tax">・・・各100円</td>
+                        </tr>
+                        <tr>
+                          <td class="topping" colspan="3">ネギ　温泉卵　チーズ　もち</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">混ぜ込みトッピング</td>
+                          <td class="menu__tax">・・・各200円</td>
+                        </tr>
+                        <tr >
+                          <td class="topping" colspan="3">豚肉　いか　えび　牛すじ　麺</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+              <li class="menu__item">
+                <div class="menu__ex">
+                  <h3 class="menu__title">焼きそば</h3>
+                  <p class="menu__d">
+                    自家製のモチモチ麺を使用。<br />
+                    味はソース・塩からお選びいただけます！
+                  </p>
+                  <div class="menu__link">メニューを詳しく見る</div>
+                </div>
+                <div class="menu__img m__right">
+                  <img src="images\menu_03.png" alt="焼きそば" />
+                </div>
+              </li>
+              <div class="menu__ex2">
+                <table class="menu__tb">
+                  <tr>
+                    <td class="menu__tb__td">
+                      <table class="menu__tb__left">
+                        <tr>
+                          <td  colspan="2"  width="50%">豚</td>
+                          <td class="menu__tax">・・・　500円</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">えび</td>
+                          <td class="menu__tax">・・・　600円</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">いか</td>
+                          <td class="menu__tax">・・・　600円</td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td class="menu__tb__td">
+                      <table class="menu__tb__right">
+                        <tr>
+                          <td colspan="2"  width="50%">ミックス<br>(豚・えび・いか)</td>
+                          <td class="menu__tax"  width="50%">・・・　900円</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </ul>
+          </div>
+          <div class="link__btn">
+            <a href="">全メニューはこちら</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="info">
+        <div class="common__inner">
+          <div class="sub__title">
+            <h2>店舗情報</h2>
+          </div>
+          <div class="info__con">
+            <table class="info__con__table">
+              <tbody>
+                <tr>
+                  <th colspan="2">こなまる本舗</th>
+                </tr>
+                <tr>
+                  <td class="td1">TEL</td>
+                  <td class="td2">090-0000-XXXX</td>
+                </tr>
+                <tr>
+                  <td class="td1">住所</td>
+                  <td class="td2">大阪府大阪市中央区道頓堀X-X-X</td>
+                </tr>
+                <tr>
+                  <td class="td1">営業時間</td>
+                  <td class="td2">11:00~23:00<br />(ラストオーダー22:30)</td>
+                </tr>
+                <tr>
+                  <td class="td1">アクセス</td>
+                  <td class="td2">
+                    地下鉄御堂筋心斎橋駅から徒歩3分<br />
+                    地下鉄御堂筋なんば駅から徒歩5分<br />
+                    南海本線難波駅から徒歩10分
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="info__map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d410.1805544560185!2d135.50226528260654!3d34.66873099429928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x6000e71486b5aa85%3A0xcbfc50ff88b23cfd!2z6YGT6aCT5aCA5ZWG5bqX6KGX44CB44CSNTQyLTAwNzEg5aSn6Ziq5bqc5aSn6Ziq5biC5Lit5aSu5Yy66YGT6aCT5aCA77yR5LiB55uu77yY!3m2!1d34.668726899999996!2d135.5019931!5e0!3m2!1sja!2sjp!4v1645955089641!5m2!1sja!2sjp"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="inquiry">
+        <div class="common__inner">
+          <div class="sub__title">
+            <h2>お問い合わせ</h2>
+          </div>
+          <div class="inq__item">
+            <div class="tel__con">
+              <span class="tel">TEL</span>
+              <span class="inq__phone">090-0000-XXXX</span>
+            </div>
+            <small class="attention"
+              >※お電話の受付時間は11:00~22:00となります。</small
+            >
+          </div>
+          <div class="link__btn">
+            <a href="">ネット予約はこちら</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="footer__c">©株式会社こなまる</p>
+      <div class="sns__link">
+        <a href=""><img src="images\twitter.svg" alt="" /></a>
+        <a href=""><img src="images\insta.png" alt="" /></a>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
