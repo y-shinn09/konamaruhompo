@@ -1,7 +1,9 @@
+//アコーディオンメニュー
 $(function () {
     $('.menu__link').on('click', function () {
         var index = $('.menu__link').index(this);
     $('.menu__ex2').eq(index).slideToggle();
+    $('.menu__link').toggleClass('active');
   });
 });
 
