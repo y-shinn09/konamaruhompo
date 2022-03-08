@@ -5,6 +5,7 @@ body {
     background-color: #6B0002;
     text-align: center;
     letter-spacing: 1.5px;
+    box-sizing: border-box;
     -webkit-appearance: none;
     -webkit-text-size-adjust: 100%;
     font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
@@ -204,7 +205,8 @@ section:first-child {
 
     .fv__inner {
         font-size: 7vw;
-        font-weight: bold;
+        font-family: "HGP明朝E",'Noto Serif JP', serif;
+        font-weight: 900;
         top: 130px;
     }
     .fv__s {
@@ -263,12 +265,14 @@ section:first-child {
         margin-bottom: 60px;
     }
     .about__message b {
-        font-size: 26px;
+        font-size: 24px;
+        font-family: 'Noto Serif JP', serif;
         font-weight: 600;
-        margin: 36px auto;
+        margin: 40px auto 20px;
     }
     .about__message p {
-        font-size: 18px;
+        font-size: 16px;
+        font-family: 'Noto Serif JP', serif;
         font-weight: 600;
         line-height: 30px;
         letter-spacing: 1px;
@@ -395,8 +399,8 @@ section:first-child {
 .menu__ex2 {
     display: none;
     border: #fff solid 1px;
-    font-size: 1.6vw;
-    padding: 2.7vw;
+    font-size: 26px;
+    padding: 50px;
 }
 .menu__tb {
     width: 100%;
@@ -406,7 +410,6 @@ section:first-child {
 }
 .menu__tb__left {
     margin: auto;
-    table-layout: fixed;
 }
 .menu__tb__right {
     margin:auto;
@@ -421,8 +424,9 @@ section:first-child {
 }
 @media screen and (max-width: 1200px) {
     .menu__ex2 {
-        width: 95%;
         margin: auto;
+        font-size: 1.6vw;
+        padding: 2.7vw;    
     }
     .menu__ex {
         width: 45vw;
@@ -430,8 +434,8 @@ section:first-child {
         margin-right: 5vw;
     }
     .menu__d {
-        width: 37vw;
-        font-size: 2.3vw;
+        width: 90%;
+        font-size: 2vw;
     }
     .second {
         margin-left: 5vw;
@@ -451,13 +455,12 @@ section:first-child {
     }
     .menu__img {
         width: 95%;
-        /* height: 356px; */
         height: 85%;
         margin: auto;
     }
     .menu__ex {
-        width: 360px;
-        height: 360px;
+        width: 100%;
+        height: 300px;
         margin: 0 auto;
         order: 1;
     }
@@ -466,8 +469,8 @@ section:first-child {
         margin-top: 40px;
     }
     .menu__d {
-        width: 100%;
-        font-size: 24px;
+        width: 90%;
+        font-size: 20px;
         letter-spacing: 1px;
     }
     .m__left,.m__right {
@@ -547,12 +550,12 @@ section:first-child {
     }
     .info__map {
         margin: auto;
-        width: 360px;
+        width: 95%;
         height: 280px;
     }
     .info__con__table {
         width: 90vw;
-        margin: auto;
+        margin: 30px auto;
         font-size: 20px;
     }
     .info__con__table th {
